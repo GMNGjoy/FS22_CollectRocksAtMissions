@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="67">
+    <version>1.0.0.0</version>
+    <author>GMNGjoy</author>
+
+    <title>
+        <en>Collect Rocks At Missions</en>
+        <fr>Collecter Des Pierres Lors Des Missions</fr>
+        <de>Strohsammeln Während Den Missionen</de>
+    </title>
+
+    <description>
+        <en><![CDATA[Allows collection of rocks from contract fields during cultivating, and sowing contracts with a stone picker.
+            
+NOTES:
+- Although rocks can be collected during a cultivating contract, they may show back up when the contract is completed.
+- The only time rocks can / will be removed from a map is if they are collected before sowing during a sowing contract.
+]]></en>
+        <fr><![CDATA[Permet la collecte des roches des champs sous contrat pendant la culture et les contrats de semis avec un ramasseur de pierres.
+            
+REMARQUES:
+- Bien que les roches puissent être collectées au cours d'un contrat de culture, elles peuvent réapparaître une fois le contrat terminé.
+- La seule fois où les roches peuvent / seront retirées d'une carte, c'est si elles sont collectées avant le semis lors d'un contrat de semis.
+]]></fr>
+<de><![CDATA[Ermöglicht das Sammeln von Steinen von Vertragsfeldern während einer Grubber- und Saatmission mit Hilfe eines Steinsammlers.
+
+ANMERKUNGEN:
+- Obwohl Steine während einer Grubbermission gesammelt werden können, können sie wieder auftauchen, wenn der Vertrag abgeschlossen ist.
+- Steine können/werden nur dann von einer Karte entfernt werden, wenn sie vor der Aussaat im Rahmen eines Saatmission eingesammelt werden.
+]]></de>
+    </description>
+
+    <multiplayer supported="true" />
+    <iconFilename>modIcon.png</iconFilename>
+    <extraSourceFiles>
+        <sourceFile filename="CollectRocksAtMissions.lua" />
+    </extraSourceFiles>
+</modDesc>
